@@ -1,6 +1,6 @@
 <h1 align="center"> Progress-Steps </h1>
 <p align="center">
-  <img alt="projeto Progress-Steps" src=".github/preview.png" width="50%">
+  <img alt="projeto Progress-Steps" src=".github/preview.png" width="45%" >
   <img alt="projeto Progress-Steps" src=".github/preview2.png" width=50%>
 </p>
 
