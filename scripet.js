@@ -1,28 +1,28 @@
-const progress = document.getElementById("progress")
-const prev = document.getElementById("prev")
-const next = document.getElementById("next")
-const circles = document.querySelectorAll("circle")
+const progress = document.getElementById('progress')
+const prev = document.getElementById('prev')
+const next = document.getElementById('next')
+const circles = document.querySelectorAll('.circle')
 
 let currentActive = 1
 
-next.addEventListener("click", () => {
+next.addEventListener('click', () => {
     currentActive++
 
-    if(currentActive > circles.lengt) {
+    if(currentActive > circles.length) {
         currentActive = circles.length
     }
 
-    Updatet()
+    update()
 })
 
-prev.addEventListener("click", () => {
+prev.addEventListener('click', () => {
     currentActive--
 
     if(currentActive < 1) {
         currentActive = 1
     }
 
-    Updatet()
+    update()
 })
 
 function update() {
